@@ -1,0 +1,9 @@
+steps:
+  - name: Print echo
+    command: echo 'hello'
+  - name: Create file
+    command: touch myfile
+  - name: Fix file
+    command: echo "appa" >> myfile
+  - name: remove file
+    command: rm myfile
