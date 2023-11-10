@@ -27,7 +27,7 @@ struct PipelineArgs {
 #[derive(Subcommand, Debug)]
 pub enum PipelineCommand {
     Create {
-        #[arg(short = 'f', long, default_value_t = String::from("pipeline.yml"), help ="Runs pipeline") ]
+        #[arg(short = 'f', long, default_value_t = String::from("pipeline.yml"), help ="Creates a pipeline template") ]
         filename: String,
     },
 
