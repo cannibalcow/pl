@@ -1,0 +1,3 @@
+steps:
+    - name: Build
+      command: echo 'hello'
